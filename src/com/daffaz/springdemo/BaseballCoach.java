@@ -18,4 +18,11 @@ public class BaseballCoach implements Coach {
 		return this.fortuneService.getFortune();
 	}
 	
+	public void initMethod() {
+		System.out.println("Init");
+	}
+	
+	public void destroyMethod() {
+		System.out.println("Destroyed");
+	}
 }
